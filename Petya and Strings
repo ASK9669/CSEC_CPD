@@ -1,0 +1,12 @@
+s1=input().strip()
+s2=input().strip()
+
+ss1=s1.lower()
+ss2=s2.lower()
+
+if ss1<ss2:
+    print("-1")
+elif ss1>ss2:
+    print("1")
+else:
+    print("0")
